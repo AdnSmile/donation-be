@@ -12,13 +12,21 @@ data class DonationEntity (
 
     val amount: Long? = null,
 
-    val name: String,
+    val name: String? = null,
 
-    val email: String,
+    val email: String? = null,
 
     val note: String? = null,
 
-    val paymentType: String = "payment_type",
+    val paymentType: String = "bank_transfer",
 
     val bank: String? = null,
+
+    val paymentStatus: String? = null,
+
+    val paymentDate: Date? = null,
+
+    val createdAt: Date = Date(),
+
+    val updatedAt: Date? = null,
 )
