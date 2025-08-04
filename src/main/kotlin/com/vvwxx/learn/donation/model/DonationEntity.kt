@@ -10,23 +10,23 @@ data class DonationEntity (
     @Id
     val id: UUID = UUID.randomUUID(),
 
-    val amount: Long? = null,
+    var amount: Long? = null,
 
-    val name: String? = null,
+    var name: String? = null,
 
-    val email: String? = null,
+    var email: String? = null,
 
-    val note: String? = null,
+    var note: String? = null,
 
-    val paymentType: String = "bank_transfer",
+    var paymentType: String = "bank_transfer",
 
-    val bank: String? = null,
+    var bank: String? = null,
 
-    val paymentStatus: String? = null,
+    var paymentStatus: String? = null,
 
-    val paymentDate: Date? = null,
+    var paymentDate: Date? = null,
 
     val createdAt: Date = Date(),
 
-    val updatedAt: Date? = null,
+    var updatedAt: Date? = null,
 )
