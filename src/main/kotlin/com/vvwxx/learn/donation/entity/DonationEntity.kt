@@ -1,7 +1,10 @@
-package com.vvwxx.learn.donation.model
+package com.vvwxx.learn.donation.entity
 
-import jakarta.persistence.*
-import java.util.*
+import jakarta.persistence.Entity
+import jakarta.persistence.Id
+import jakarta.persistence.Table
+import java.util.Date
+import java.util.UUID
 
 @Entity
 @Table(name = "donation")

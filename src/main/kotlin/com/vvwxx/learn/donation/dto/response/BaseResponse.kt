@@ -1,4 +1,4 @@
-package com.vvwxx.learn.donation.model
+package com.vvwxx.learn.donation.dto.response
 
 data class BaseResponse<T>(
 
