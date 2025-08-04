@@ -1,7 +1,7 @@
 package com.vvwxx.learn.donation.controller
 
-import com.vvwxx.learn.donation.model.MidtransNotifRes
-import com.vvwxx.learn.donation.model.VaNumbers
+import com.vvwxx.learn.donation.dto.response.MidtransNotifRes
+import com.vvwxx.learn.donation.dto.response.VaNumbers
 import com.vvwxx.learn.donation.service.DonationService
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.PostMapping

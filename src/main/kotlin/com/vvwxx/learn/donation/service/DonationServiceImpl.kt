@@ -1,14 +1,14 @@
 package com.vvwxx.learn.donation.service
 
-import com.vvwxx.learn.donation.model.BankTransfer
-import com.vvwxx.learn.donation.model.BaseResponse
-import com.vvwxx.learn.donation.model.CustomerDetails
-import com.vvwxx.learn.donation.model.DonationEntity
-import com.vvwxx.learn.donation.model.DonationRequest
-import com.vvwxx.learn.donation.model.DonationResponse
-import com.vvwxx.learn.donation.model.MidtransNotifRes
-import com.vvwxx.learn.donation.model.MidtransRequest
-import com.vvwxx.learn.donation.model.TransactionDetails
+import com.vvwxx.learn.donation.dto.request.BankTransfer
+import com.vvwxx.learn.donation.dto.response.BaseResponse
+import com.vvwxx.learn.donation.dto.request.CustomerDetails
+import com.vvwxx.learn.donation.entity.DonationEntity
+import com.vvwxx.learn.donation.dto.request.DonationRequest
+import com.vvwxx.learn.donation.dto.response.DonationResponse
+import com.vvwxx.learn.donation.dto.response.MidtransNotifRes
+import com.vvwxx.learn.donation.dto.request.MidtransRequest
+import com.vvwxx.learn.donation.dto.request.TransactionDetails
 import com.vvwxx.learn.donation.repository.DonationRepository
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.http.HttpEntity

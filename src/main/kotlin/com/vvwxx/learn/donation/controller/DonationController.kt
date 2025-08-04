@@ -1,8 +1,8 @@
 package com.vvwxx.learn.donation.controller
 
-import com.vvwxx.learn.donation.model.BaseResponse
-import com.vvwxx.learn.donation.model.DonationRequest
-import com.vvwxx.learn.donation.model.DonationResponse
+import com.vvwxx.learn.donation.dto.response.BaseResponse
+import com.vvwxx.learn.donation.dto.request.DonationRequest
+import com.vvwxx.learn.donation.dto.response.DonationResponse
 import com.vvwxx.learn.donation.service.DonationService
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody

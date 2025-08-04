@@ -1,8 +1,6 @@
-package com.vvwxx.learn.donation.model
+package com.vvwxx.learn.donation.dto.request
 
 import com.fasterxml.jackson.annotation.JsonProperty
-import jakarta.persistence.*
-import java.util.*
 
 data class MidtransRequest(
 

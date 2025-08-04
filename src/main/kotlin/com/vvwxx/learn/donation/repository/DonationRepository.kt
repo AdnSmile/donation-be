@@ -1,6 +1,6 @@
 package com.vvwxx.learn.donation.repository
 
-import com.vvwxx.learn.donation.model.DonationEntity
+import com.vvwxx.learn.donation.entity.DonationEntity
 import org.springframework.data.jpa.repository.JpaRepository
 import java.util.UUID
 
