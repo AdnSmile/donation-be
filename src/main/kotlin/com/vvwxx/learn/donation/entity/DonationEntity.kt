@@ -27,6 +27,8 @@ data class DonationEntity (
 
     var paymentStatus: String? = null,
 
+    var vaNumber: String? = null,
+
     var paymentDate: Date? = null,
 
     val createdAt: Date = Date(),
