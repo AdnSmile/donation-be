@@ -139,6 +139,3 @@ The application will run at `http://localhost:8080`
 The frontend for this donation application can be found at:
 [https://github.com/AdnSmile/donation-fe](https://github.com/AdnSmile/donation-fe)
 
----
-
-If you have any questions or need further assistance, please contact the project maintainer.
